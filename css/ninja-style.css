@@ -1,0 +1,44 @@
+div .seattle-ninja-social ul.seattle_social_ninja_list
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+div .seattle-ninja-social ul.seattle_social_ninja_list li
+{
+	display: inline;
+	-webkit-transition: text-shadow 0.2s ease-in-out;
+	-moz-transition: text-shadow 0.2s ease-in-out;
+	-ms-transition: text-shadow 0.2s ease-in-out;
+	-o-transition: text-shadow 0.2s ease-in-out;
+	transition: text-shadow 0.2s ease-in-out;		
+}
+
+body ul.seattle_social_ninja_list > li
+{display: inline-block !important;}
+
+body ul.seattle_social_ninja_list > li 
+{
+border:0 !important;
+display:inline;
+margin: 0 1% 1% 0 !important;
+}
+
+body ul.seattle_social_ninja_list li:before {
+content: '' !important;
+margin:0 !important;
+border:0 !important;
+background: none !important;
+}
+
+
+div .widget.seattle-ninja-social ul.seattle_seattle_ninja_list li i.fa {display:inherit;}
+
+div .widget.seattle-ninja-social ul li.hide { display:none;}
+
+body .seattle-ninja-social ul.seattle_social_ninja_list li {  border:0 !important; }
+
+
+
